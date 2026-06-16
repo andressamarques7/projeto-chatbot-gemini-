@@ -40,7 +40,7 @@ MODELO = "gemini-2.5-flash"
 
 INSTRUCAO_SISTEMA = """
 Você é um assistente que vai ajudar a praticar o inglês.
-Responda o usuário de forma inteligente, resolva o problema dele, corrija o necessario e sempre mostre uma tradução em baixo.
+Responda o usuário de forma inteligente, resolva o problema dele, corrija sempre o que ele escxrever gramaticamente errado e sempre mostre uma tradução em baixo.
 """
 
 st.set_page_config(page_title="Chatbot Mal Educado", page_icon="🐦‍⬛")
